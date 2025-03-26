@@ -1,0 +1,102 @@
+/* src/Appbar.css */
+body {
+    margin-left: 13em;
+    width: 85%;
+}
+
+.navbar {
+    background-color: #FFFFFF !important;
+    color: rgb(0, 0, 0);
+    width: 300px;
+}
+
+.arrow {
+    color: gray;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+}
+
+.arrow .MuiIconButton-root {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+
+    flex-grow: 1;
+    color: black;
+}
+
+.search {
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgba(62, 219, 219, 0);
+    padding-left: 30px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.input-root {
+    color: inherit;
+    width: 100%;
+}
+
+.input-input {
+    padding: 8px 8px 8px 0;
+    padding-left: calc(1em + 32px);
+    transition: width 0.2s;
+    width: 100%;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.section-desktop {
+    display: flex;
+    align-items: center;
+}
+
+.notification {
+    margin-right: 10px;
+    color: black;
+
+}
+
+.icon-button {
+    color: #ADD8E6 !important;
+    /* margin-right: 8px !important; */
+    /* height: 30px !important; */
+    /* width: 30px !important; */
+    /* background-color: red !important; */
+}
+
+.brand-name {
+    font-weight: 100 !important;
+    margin-left: 12px !important;
+    font-size: 16px !important;
+    /* Space between account icon and brand name */
+    color: black;
+}
+
+.name {
+    color: rgba(0, 0, 0, 0.622);
+    position: absolute;
+    top: 80px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.dh {
+    color: rgba(0, 0, 0, 0.622);
+    font-size: 17px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    margin-right: 20px;
+
+}

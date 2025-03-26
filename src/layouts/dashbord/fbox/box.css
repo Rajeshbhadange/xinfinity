@@ -1,0 +1,131 @@
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    /* Allows wrapping of boxes on smaller screens */
+}
+
+.mixed-chart {
+    margin-top: 30px;
+    position: relative;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    width: 100%;
+    max-width: 270px;
+    /* Limits the maximum width */
+    height: 90px;
+    background-color: #FFFFFF;
+    color: rgb(15, 12, 12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    box-sizing: border-box;
+    /* Ensures padding is included in width/height */
+}
+
+.text h2 {
+    font-size: large;
+    font-weight: 100;
+}
+
+.text1,
+.text2,
+.text3,
+.text {
+    color: rgba(0, 0, 0, 0.582);
+    width: 100%;
+    font-size: 15px;
+}
+
+.text1 {
+    margin-bottom: 25px;
+}
+
+.text2 {
+    height: 13vh;
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+
+.text3 {
+    font-size: 20px;
+    height: 13vh;
+    margin-top: 10px;
+}
+
+.text {
+    font-size: 15px;
+    height: 13vh;
+    margin-bottom: 8px;
+}
+
+.text3 .passage {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.text3 span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Circle {
+    margin-bottom: 1.8em;
+}
+
+.Circle,
+.circle-2 {
+    width: 35%;
+    height: 100px;
+    position: relative;
+}
+
+.circle-2 {
+
+    width: 25%;
+}
+
+.graph-1,
+.graph-2 {
+    width: 60%;
+    height: 100%;
+    margin-top: 15px;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 48%;
+        /* Allows two boxes per row on medium screens */
+        max-width: none;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 23%;
+        /* Allows four boxes per row on large screens */
+        height: 110px;
+    }
+}

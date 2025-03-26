@@ -1,0 +1,152 @@
+/* Responsive Container */
+.container-fluid {
+    padding: 10px;
+    margin-left: 15px;
+    width: 98%;
+    margin-bottom: 5em;
+}
+
+.page-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.link {
+    padding-right: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Responsive Table */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table thead th {
+    position: sticky;
+    top: 0;
+}
+
+.col-12 {
+    width: 100%;
+    background-color: #fdfeff;
+    border: 2px solid rgb(234, 234, 234);
+    box-shadow: 1px 20px 3px(0, 0, 3);
+    border-radius: 5px;
+
+}
+
+.scv {
+    margin-bottom: 20px;
+}
+
+.new {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text-end {
+    padding-inline: 10px;
+}
+
+.btn-group {
+    background-color: rgb(0, 204, 129);
+    border: 2px solid #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+
+}
+
+.btn-group a {
+    color: #f2f2f2;
+}
+
+.btn-new {
+    border: 2px solid #f2f2f2;
+    font-size: 15px;
+    border-radius: 6px;
+    color: #f2f2f2;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    background-color: royalblue;
+}
+
+/* Hide columns on small screens */
+@media (max-width: 768px) {
+
+    .table td,
+    .table th {
+        font-size: 0.9rem;
+    }
+
+    .table td {
+        display: block;
+        width: 100%;
+
+        padding-left: 25px;
+    }
+
+    .table th {
+        display: none;
+    }
+
+    .table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: inline-block;
+        width: 50%;
+
+    }
+
+    .table td:first-child {
+        display: none;
+    }
+
+}
+
+/* Make sure buttons fit well on small screens */
+.btn-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-group .btn {
+    margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+    .btn-group {
+        flex-direction: row;
+    }
+
+    .btn-group .btn {
+        margin-bottom: 0;
+        margin-right: 5px;
+    }
+}
+
+.footer {
+    padding: 20px;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+/* src/App.css */
+.edit {
+    text-align: center;
+}
+
+.edit button {
+    padding: 6px;
+    font-size: 10px;
+    cursor: pointer;
+}

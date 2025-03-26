@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  width: 100%;
+  display: flex;
+}
+
+.navbar-visible {
+  background-color: rgb(251, 251, 251);
+}
+
+.main-content {
+  margin-left: 250px;
+  padding: 0px;
+  flex-grow: 1;
+  transition: margin-left 0.3s;
+}
+
+.sidebar-visible {
+  margin-top: auto;
+  margin-left: 250px;
+}
+
+
+.menu-button {
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  box-shadow: #282c34;
+  background-color: transparent;
+  color: rgb(91, 89, 89);
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}

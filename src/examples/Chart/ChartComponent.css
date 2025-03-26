@@ -1,0 +1,108 @@
+/* ChartComponent.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9e9e9be;
+}
+
+.Card-chart {
+    border: 2px solid #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* margin: 10px; */
+    overflow: hidden;
+    margin-bottom: 3em;
+    background-color: white;
+    height: 70Vh;
+    margin-left: 20px;
+}
+
+.card-body-c {
+    padding: 20px;
+    margin-top: 10px;
+    height: 20%;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.float-end {
+    float: right;
+}
+
+.apex-charts {
+    /* width: 100%; */
+    height: 50%;
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}
+
+.apexcharts-legend {
+    display: flex;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.apexcharts-legend.position-bottom,
+.apexcharts-legend.position-top {
+    flex-wrap: wrap;
+}
+
+
+.apexcharts-legend.position-right,
+.apexcharts-legend.position-left {
+    flex-direction: column;
+    bottom: 0;
+}
+
+
+.apexcharts-legend.position-bottom.apexcharts-align-left,
+.apexcharts-legend.position-top.apexcharts-align-left,
+.apexcharts-legend.position-right,
+.apexcharts-legend.position-left {
+    justify-content: flex-start;
+}
+
+.apexcharts-legend.position-bottom.apexcharts-align-right,
+.apexcharts-legend.position-top.apexcharts-align-right {
+    justify-content: flex-end;
+}
+
+.apexcharts-legend-series {
+    cursor: pointer;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    margin: 2px 5px;
+}
+
+.apexcharts-legend-text {
+    position: relative;
+    font-size: 14px;
+    color: #373d3f;
+    font-weight: 400;
+    font-family: 'Helvetica, Arial, sans-serif';
+}
+
+.apexcharts-legend-marker {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+    border-style: solid;
+    border-radius: 12px;
+    height: 8px;
+    width: 12px;
+}
+
+.apexcharts-legend .apexcharts-hidden-zero-series,
+.apexcharts-legend .apexcharts-hidden-null-series {
+    display: none !important;
+}
+
+.apexcharts-inactive-legend {
+    opacity: 0.45;
+}
